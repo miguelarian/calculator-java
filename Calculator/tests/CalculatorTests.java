@@ -42,4 +42,17 @@ public class CalculatorTests {
         double expectedValue = 3;
         assertEquals(expectedValue, sumResult);
     }
+
+    @Test
+    public void div_5_2_returns_decimalValue() {
+        // Arrange
+        Calculator calculator = new Calculator();
+
+        // Act
+        double sumResult = calculator.divide(5,2);
+
+        // Assert
+        double expectedValue = 2.5d;
+        assertEquals(expectedValue, sumResult);
+    }
 }
