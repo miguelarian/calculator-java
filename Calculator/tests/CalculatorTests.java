@@ -29,4 +29,17 @@ public class CalculatorTests {
         double expectedValue = 1;
         assertEquals(expectedValue, sumResult);
     }
+
+    @Test
+    public void div_6_2_returns_3() {
+        // Arrange
+        Calculator calculator = new Calculator();
+
+        // Act
+        double sumResult = calculator.divide(6,2);
+
+        // Assert
+        double expectedValue = 3;
+        assertEquals(expectedValue, sumResult);
+    }
 }
