@@ -3,9 +3,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CalculatorTests {
+public class TestCalculator {
     @Test
-    public void sum_1_1_returns_2() {
+    public void test_sum_1_1_returns_2() {
         // Arrange
         Calculator calculator = new Calculator();
 
@@ -18,7 +18,7 @@ public class CalculatorTests {
     }
 
     @Test
-    public void sub_3_2_returns_1() {
+    public void test_sub_3_2_returns_1() {
         // Arrange
         Calculator calculator = new Calculator();
 
@@ -31,7 +31,7 @@ public class CalculatorTests {
     }
 
     @Test
-    public void div_6_2_returns_3() {
+    public void test_div_6_2_returns_3() {
         // Arrange
         Calculator calculator = new Calculator();
 
@@ -44,7 +44,7 @@ public class CalculatorTests {
     }
 
     @Test
-    public void div_5_2_returns_decimalValue() {
+    public void test_div_5_2_returns_decimalValue() {
         // Arrange
         Calculator calculator = new Calculator();
 
@@ -57,7 +57,7 @@ public class CalculatorTests {
     }
 
     @Test
-    public void multiply_3_4_returns_12() {
+    public void test_multiply_3_4_returns_12() {
         // Arrange
         Calculator calculator = new Calculator();
 
