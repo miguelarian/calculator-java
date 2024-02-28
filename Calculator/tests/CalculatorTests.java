@@ -16,4 +16,17 @@ public class CalculatorTests {
         double expectedValue = 2;
         assertEquals(expectedValue, sumResult);
     }
+
+    @Test
+    public void sub_3_2_returns_1() {
+        // Arrange
+        Calculator calculator = new Calculator();
+
+        // Act
+        double sumResult = calculator.sub(3,2);
+
+        // Assert
+        double expectedValue = 1;
+        assertEquals(expectedValue, sumResult);
+    }
 }
