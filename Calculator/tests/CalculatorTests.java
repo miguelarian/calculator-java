@@ -55,4 +55,17 @@ public class CalculatorTests {
         double expectedValue = 2.5d;
         assertEquals(expectedValue, sumResult);
     }
+
+    @Test
+    public void multiply_3_4_returns_12() {
+        // Arrange
+        Calculator calculator = new Calculator();
+
+        // Act
+        double sumResult = calculator.divide(3,4);
+
+        // Assert
+        double expectedValue = 12;
+        assertEquals(expectedValue, sumResult);
+    }
 }
