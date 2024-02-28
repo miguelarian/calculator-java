@@ -62,7 +62,7 @@ public class CalculatorTests {
         Calculator calculator = new Calculator();
 
         // Act
-        double sumResult = calculator.divide(3,4);
+        double sumResult = calculator.multiply(3,4);
 
         // Assert
         double expectedValue = 12;
